@@ -8,8 +8,7 @@
 
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
 
-<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&
-logoColor=%23F7DF1E">
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 
 <img src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black">
 
@@ -78,6 +77,7 @@ Support for last versions of browsers:
 - transpiling and compressing JS modules
 - compressing html
 - minification images and convertion to .webp
+<br>
 
 ### Usage Docker in project
 
@@ -90,6 +90,7 @@ Support for last versions of browsers:
 4. Dockerfile created for building frontend part(all components in this directory)
 
 5. Docker compose file created for building frontend and backend part(mongodb and mongo-express)
+<br>
 
 This is structure and my Docker Hub profile:
 
@@ -113,15 +114,15 @@ And received result:
 
         npm start
 
-### Setup with Docker
-
+## Setup with Docker
+<br>
 Install Docker and then...
 
-#### Variant 1(build whole app)
+### Variant 1(build whole app)
 
         docker compose up -d
 
-#### Variant 2(build frontend part)
+### Variant 2(build frontend part)
 
 1.  Pull image
 
@@ -131,7 +132,7 @@ Install Docker and then...
 
         docker run -p 8080:8080 --name frontend omnifood-project
 
-#### Variant 3(build frontend part)
+### Variant 3(build frontend part)
 
 1.  Build image
 

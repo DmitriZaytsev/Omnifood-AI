@@ -1,0 +1,41 @@
+version: '3'
+name: omnifood
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - 8080:8080
+    networks:
+      - network
+
+  database:
+    container_name: database
+    image: mongo:4.4.6
+    volumes:
+      - config:/data/configdb
+      - data:/data/db
+    networks:
+      - network
+
+  mongo-express-container:
+    container_name: mongo-express-container
+    image: mongo-express
+    environment:
+    - ME_CONFIG_MONGODB_SERVER=database
+    - ME_CONFIG_MONGODB_PORT=27017
+    ports:
+      - 8081:8081
+    networks:
+      - network
+    depends_on:
+      - database
+
+volumes:
+  config:
+  data:
+
+networks:
+  network:

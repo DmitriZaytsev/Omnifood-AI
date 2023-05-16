@@ -76,7 +76,7 @@ class dragDropView {
                         this._delWidget.remove();
                         document.documentElement.style.cursor = 'default';
 
-                    }, 3000);
+                    }, 1500);
                 }, 500);
 
             }

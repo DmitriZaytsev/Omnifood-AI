@@ -16,7 +16,7 @@
 
 ### About:
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik&size=18&duration=1000&color=030A0E&multiline=true&repeat=false&width=435&height=60&lines=Responsive+and+cross-browser+site+;with+Drag+and+Drop+feacture.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik&size=18&duration=1000&color=030A0E&multiline=true&repeat=false&width=435&height=60&lines=Responsive+and+cross%2Dbrowser+site+;with+Drag+and+Drop+feacture.)](https://git.io/typing-svg)
 
 # Omnifood Project
 

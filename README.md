@@ -53,7 +53,7 @@ Live site: (https://omnifoodai-site.netlify.app/)
 
 <strong>For cross-browser compatibility:</strong>
 
-4. Use polyfill to support scroll bevavior "smooth" in Safari. Used JS as an alternative to @supports(for support Safari too🙃). Added vendors thanks to Webpack.
+4. Used polyfill to support scroll bevavior "smooth". Used JS as an alternative to `@supports`. This was done more for practice than for real support. Also added vendors thanks to Webpack.
 
 Support for last versions of browsers:
 
@@ -148,4 +148,4 @@ Install Docker and then...
 
 Telegram: [@dmitr1_zaytsev](https://t.me/dmitr1_zaytsev)
 
-Mail: [dmitri_zaytsev@mail.ru](dmitri_zaytsev@bk.ru)
+Mail: <dmitri_zaytsev@bk.ru>

@@ -10,7 +10,7 @@ import '../css/general.css';
 
 
 ///////////////////////////////////////////////////////////
-// Fixing flexbox gap property missing in some Safari versions
+// Fixing flexbox gap property in unsupported browsers and versions
 flexboxSupportView.fixFlexGap();
 
 // ///////////////////////////////////////////////////////////

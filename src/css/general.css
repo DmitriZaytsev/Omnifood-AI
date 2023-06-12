@@ -69,7 +69,6 @@ Medium: 11px
   
   html {
     /* font-size: 10px; */
-  
     /* 10px / 16px = 0.625 = 62.5% */
     /* Percentage of user's browser font-size setting */
     font-size: 62.5%;
@@ -119,10 +118,6 @@ Medium: 11px
   .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
   }
-  
-  /* .grid--5-cols {
-    grid-template-columns: repeat(5, 1fr);
-  } */
   
   .grid--center-v {
     align-items: center;

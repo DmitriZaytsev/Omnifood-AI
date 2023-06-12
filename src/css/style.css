@@ -8,7 +8,7 @@
     align-items: center;
     background-color: #fdf2e9;
   
-    /* Because we want header to be sticky later */
+    /* for sticky header*/
     height: 9.6rem;
     padding: 0 4.8rem;
     position: relative;
@@ -504,9 +504,6 @@
   /**************************/
   
   .section-cta {
-    /* top / right / bottom / left */
-    /* padding: 9.6rem 0 12.8rem 0; */
-  
     /* top / horizontal / left */
     padding: 4.8rem 0 12.8rem;
   }

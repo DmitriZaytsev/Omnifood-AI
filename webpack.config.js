@@ -1,14 +1,14 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const webpack = require('webpack');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
-
-
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
 
 
 module.exports = {
@@ -42,6 +42,7 @@ module.exports = {
             }]
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new BundleAnalyzerPlugin()
     ],
     module: {
         rules: [

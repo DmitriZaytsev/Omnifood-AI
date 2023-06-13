@@ -1,6 +1,5 @@
 const path = require('path');
 
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
@@ -42,7 +41,6 @@ module.exports = {
             }]
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new BundleAnalyzerPlugin()
     ],
     module: {
         rules: [
